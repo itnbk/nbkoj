@@ -33,6 +33,6 @@ sqlparse
 django-newsletter
 netaddr
 redis
-lupa
+lupa==1.9
 websocket-client
 python-memcached
