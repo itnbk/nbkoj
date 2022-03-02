@@ -30,8 +30,8 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 SITE_ID = 1
-SITE_NAME = 'LQDOJ'
-SITE_LONG_NAME = 'LQDOJ: Le Quy Don Online Judge'
+SITE_NAME = 'NBKOJ'
+SITE_LONG_NAME = 'NBKOJ: Nguyen Binh Khiem Online Judge'
 SITE_ADMIN_EMAIL = False
 
 DMOJ_REQUIRE_STAFF_2FA = True
@@ -150,7 +150,7 @@ else:
 
     WPADMIN = {
         'admin': {
-            'title': 'LQDOJ Admin',
+            'title': 'NBKOJ Admin',
             'menu': {
                 'top': 'wpadmin.menu.menus.BasicTopMenu',
                 'left': 'wpadmin.menu.custom.CustomModelLeftMenuWithDashboard',
