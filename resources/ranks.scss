@@ -3,6 +3,15 @@
     font-weight: bold !important;
 }
 
+.staff a, .staff {
+    color: #ff859a !important;
+    font-weight: bold !important;
+}
+
+.staff::before {
+    content: "🦖 ";
+}
+
 @mixin rate-svg-color($color) {
     circle {
         stroke: $color;
