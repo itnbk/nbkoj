@@ -15,11 +15,15 @@
 
 .cheater::before {
     content: "💩 ";
-}
+} 
 
 .caiwindao a, .caiwindao {
     color: red !important;
     font-weight: bold !important;
+}
+
+.caiwindao::first-letter {
+    color: black !important;
 }
 
 .caiwindao::before {
