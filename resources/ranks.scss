@@ -3,6 +3,19 @@
     font-weight: bold !important;
 }
 
+.admin::before {
+    content: "✅ ";
+}
+
+.caiwindao a, .caiwindao {
+    color: red !important;
+    font-weight: bold !important;
+}
+
+.caiwindao::before {
+    content: "👑 ";
+}
+
 .staff a, .staff {
     color: #ff859a !important;
     font-weight: bold !important;
