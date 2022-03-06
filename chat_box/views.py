@@ -10,6 +10,7 @@ from django.db.models.functions import Coalesce
 from django.utils import timezone
 from django.contrib.auth.decorators import login_required
 from django.urls import reverse
+from django.db.models import Q
 
 import datetime
 
@@ -304,7 +305,7 @@ def get_status_context(request, include_ignored=False):
     friend_list = Friend.get_friend_profiles(request.profile).exclude(id__in=recent_profile_id)\
                     .exclude(id__in=ignored_users)\
                     .order_by('-last_access')
-    admin_list = queryset.filter(display_rank='admin')\
+    admin_list = queryset.filter(Q(display_rank='admin') | Q(display_rank='caiwindao'))\
                 .exclude(id__in=friend_list).exclude(id__in=recent_profile_id)
     all_user_status = queryset\
         .filter(display_rank='user',
