@@ -7,6 +7,16 @@
     content: "✅ ";
 }
 
+.cheater a, .cheater {
+    color: black !important;
+    font-weight: normal !important;
+    text-decoration: line-through !important;
+}
+
+.cheater::before {
+    content: "💩 ";
+}
+
 .caiwindao a, .caiwindao {
     color: red !important;
     font-weight: bold !important;

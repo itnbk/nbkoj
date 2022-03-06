@@ -94,7 +94,8 @@ class Profile(models.Model):
                                           related_name='members', related_query_name='member')
     display_rank = models.CharField(max_length=10, default='user', verbose_name=_('display rank'),
                                     choices=(('user', 'Normal User'), ('setter', 'Problem Setter'), 
-                                             ('staff', 'Staff'), ('caiwindao', 'CaiWinDao'), ('admin', 'Admin')))
+                                             ('staff', 'Staff'), ('caiwindao', 'CaiWinDao'),
+                                             ('cheater', 'Cheater'), ('admin', 'Admin')))
     mute = models.BooleanField(verbose_name=_('comment mute'), help_text=_('Some users are at their best when silent.'),
                                default=False)
     is_unlisted = models.BooleanField(verbose_name=_('unlisted user'), help_text=_('User will not be ranked.'),
