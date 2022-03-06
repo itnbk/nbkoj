@@ -8,7 +8,7 @@ NBKOJ: Nguyen Binh Khiem Online Judge
 
 ## Overview
 
-Homepage: [http://nbk.homes](http://nbk.homes)
+Homepage: [https://nbk.homes](https://nbk.homes)
 
 Based on [DMOJ](https://dmoj.ca/) and [LQDOJ](https://lqdoj.edu.vn).
 
